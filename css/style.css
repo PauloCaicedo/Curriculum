@@ -1,0 +1,38 @@
+@import url(https://fonts.googleapis.com/css?family=VT323);
+
+h1{
+  color: #3A01DF;
+  text-transform: uppercase;
+  font-family: 'VT323';
+  font-weight: normal;
+  font-size: 3em;
+}
+
+h2{
+  color: #3A01DF;
+  text-transform: uppercase;
+  font-family: 'VT323';
+  font-weight: normal;
+  font-size: 2em;
+}
+
+div{
+  text-align: justify;
+}
+
+dt{
+  color: #3A01DF;
+  text-transform: uppercase;
+  font-family: 'VT323';
+  font-weight: normal;
+  font-size: 2.5em;
+}
+
+p{
+  color: #B404AE;
+  text-transform: uppercase;
+  font-family: 'VT323';
+  font-weight: normal;
+  font-size: 1em;
+  
+}
