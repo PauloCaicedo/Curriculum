@@ -1,38 +1,80 @@
 @import url(https://fonts.googleapis.com/css?family=VT323);
 
+body{  
+  background-color: black;
+}
+
 h1{
-  color: #3A01DF;
+  color: yellow;
   text-transform: uppercase;
+  text-align: center;
   font-family: 'VT323';
   font-weight: normal;
   font-size: 3em;
+  background: linear-gradient(#e7a61a,red);
+  border: 2px solid black;
+  border-radius: 50px;
+  margin-top: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
 }
 
-h2{
-  color: #3A01DF;
-  text-transform: uppercase;
-  font-family: 'VT323';
-  font-weight: normal;
-  font-size: 2em;
-}
-
-div{
-  text-align: justify;
+table{
+  margin: auto;
 }
 
 dt{
-  color: #3A01DF;
+  color: red;
   text-transform: uppercase;
   font-family: 'VT323';
   font-weight: normal;
-  font-size: 2.5em;
+  font-size: 2.4em;
+}
+
+li{
+  color: black;
+  text-align: justify;
+  font-family: 'VT323';
+  font-weight: normal;
+  font-size: 2em;
+  margin-right: 50px;
+  margin-left: 50px;
+  
 }
 
 p{
-  color: #B404AE;
-  text-transform: uppercase;
+  color: black;
+  text-align: justify;
   font-family: 'VT323';
   font-weight: normal;
-  font-size: 1em;
-  
+  font-size: 2em;
+  margin: 50px;
+}
+
+#javaIcon{
+  float: rigth;
+  background: white;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+#pic{
+  margin-right: 50px;
+  width: 120px;
+  border: 2px solid black;
+  border-radius: 30px;
+}
+
+.frame{
+  background-image: url('http://gamerselite.com/wp-content/uploads/2018/05/Portland_Retro_Gaming_2017_BANNER_0.jpg');
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+}
+
+.pane{
+  margin-top: 140px;
+  /*background-color: #2E9AFE;*/
+  background-image: url('https://github.com/PauloCaicedo/Curriculum/blob/gh-pages/images/noiseBackground.png?raw=true');
+  border: 2px solid black;
+  border-radius: 50px;
 }
