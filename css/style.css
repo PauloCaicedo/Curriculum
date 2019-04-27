@@ -13,46 +13,26 @@ h1{
   font-size: 3em;
   background: linear-gradient(#e7a61a,red);
   border: 2px solid black;
-  border-radius: 50px;
+  border-radius: 30px;
   margin-top: 50px;
   margin-right: 50px;
   margin-left: 50px;
+  position: relative;
 }
 
 table{
   margin: auto;
 }
 
-dt{
-  color: red;
-  text-transform: uppercase;
-  font-family: 'VT323';
-  font-weight: normal;
-  font-size: 2.4em;
-}
-
-li{
-  color: black;
-  text-align: justify;
-  font-family: 'VT323';
-  font-weight: normal;
-  font-size: 2em;
-  margin-right: 50px;
-  margin-left: 50px;
-  
-}
-
 p{
   color: black;
   text-align: justify;
   font-family: 'VT323';
-  font-weight: normal;
   font-size: 2em;
   margin: 50px;
 }
 
-#javaIcon{
-  float: rigth;
+.Icon{
   background: white;
   border: 2px solid black;
   border-radius: 10px;
@@ -60,21 +40,53 @@ p{
 
 #pic{
   margin-right: 50px;
-  width: 120px;
+  margin-bottom: auto;
+  width: 100px;
   border: 2px solid black;
-  border-radius: 30px;
+  border-radius: 10px;
 }
 
 .frame{
-  background-image: url('http://gamerselite.com/wp-content/uploads/2018/05/Portland_Retro_Gaming_2017_BANNER_0.jpg');
+  background-image: url('https://github.com/PauloCaicedo/Curriculum/blob/gh-pages/images/banner.jpg?raw=true');
   background-repeat: repeat-x;
   background-attachment: fixed;
 }
 
 .pane{
-  margin-top: 140px;
+  margin-top: 230px;
   /*background-color: #2E9AFE;*/
   background-image: url('https://github.com/PauloCaicedo/Curriculum/blob/gh-pages/images/noiseBackground.png?raw=true');
   border: 2px solid black;
-  border-radius: 50px;
+  border-radius: 20px;
+}
+
+.toolTd{
+  color: red;
+  font-family: 'VT323';
+  font-weight: normal;
+  font-size: 2.2em;
+  text-align: center;
+}
+
+.toolDescription{
+  color: black;
+  font-family: 'VT323';
+  font-weight: normal;
+  font-size: 1.5em;
+  text-align: left;
+  width: 300px;
+  padding: 20px;
+  box-sizing: border-box;
+  vertical-align:top;
+  
+}
+
+h2{
+  color: black;
+  text-align: center;
+  font-family: 'VT323';
+  font-weight: normal;
+  font-size: 1.8em;
+  margin-top: 30px;
+  margin-bottom: 25px;
 }
