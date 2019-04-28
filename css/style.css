@@ -11,17 +11,24 @@ h1{
   font-family: 'VT323';
   font-weight: normal;
   font-size: 3em;
-  background: linear-gradient(#e7a61a,red);
+  background: linear-gradient(red,#e7a61a);
   border: 2px solid black;
   border-radius: 30px;
   margin-top: 50px;
   margin-right: 50px;
   margin-left: 50px;
   position: relative;
+  box-shadow: 7px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 table{
-  margin: auto;
+  margin-bottom:50px;
+  margin-left:50px;
+  margin-right:50px;
+  background: yellow;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 p{
@@ -31,11 +38,23 @@ p{
   font-size: 2em;
   margin: 50px;
 }
+.contactIcon{
+  margin-left: 25px;
+  margin-top: 25px;
+}
+.contactText{
+  color: black;
+  font-family: 'VT323';
+  font-weight: normal;
+  font-size: 3em;  
+}
 
 .Icon{
+  margin: 25px;
   background: white;
   border: 2px solid black;
   border-radius: 10px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 #pic{
@@ -44,6 +63,7 @@ p{
   width: 100px;
   border: 2px solid black;
   border-radius: 10px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 .frame{
@@ -89,4 +109,8 @@ h2{
   font-size: 1.8em;
   margin-top: 30px;
   margin-bottom: 25px;
+}
+
+.skillsTable{
+ 
 }
