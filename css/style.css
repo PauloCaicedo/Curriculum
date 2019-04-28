@@ -83,7 +83,7 @@ p{
   border: 2px solid black;
   border-radius: 10px;
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-  padding: 3px;
+  padding: 2px;
 }
 
 .frame{
@@ -93,7 +93,7 @@ p{
 }
 
 .pane{
-  margin-top: 230px;
+  margin-top: 100px;
   /*background-color: #2E9AFE;*/
   background-image: url('https://github.com/PauloCaicedo/Curriculum/blob/gh-pages/images/noiseBackground.png?raw=true');
   border: 2px solid black;
@@ -139,4 +139,28 @@ h2{
 .skillsTableTwo{
   margin: auto;
   margin-bottom:50px;
+}
+
+.socialNetworkIcon{
+  margin: 50px;
+  background: #2E9AFE;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  border-radius: 11.5px;
+  box-sizing: border-box;
+}
+
+#playButton{
+  margin-top: 80px;
+  margin-left: 50px;
+  background: red;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+#pauseButton{
+  background: red;
+  border: 2px solid black;
+  border-radius: 6px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
