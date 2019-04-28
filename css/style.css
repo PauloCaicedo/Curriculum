@@ -38,15 +38,33 @@ p{
   font-size: 2em;
   margin: 50px;
 }
-.contactIcon{
-  margin-left: 25px;
-  margin-top: 25px;
+#contactIconOne{
+  margin: 50px;
+  background: orange;
+  border: 2px solid black;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  padding: 2px;
+  
 }
+
+#contactIconTwo{
+  margin: 50px;
+  background: yellow;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  padding: 2px;
+  
+}
+
 .contactText{
   color: black;
   font-family: 'VT323';
   font-weight: normal;
-  font-size: 3em;  
+  font-size: 3em;
+  padding: 50px;
+  
 }
 
 .Icon{
@@ -60,10 +78,12 @@ p{
 #pic{
   margin-right: 50px;
   margin-bottom: auto;
+  background: red;
   width: 100px;
   border: 2px solid black;
   border-radius: 10px;
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  padding: 3px;
 }
 
 .frame{
@@ -111,6 +131,12 @@ h2{
   margin-bottom: 25px;
 }
 
-.skillsTable{
- 
+.contactTable{
+  margin: auto;
+  
+}
+
+.skillsTableTwo{
+  margin: auto;
+  margin-bottom:50px;
 }
