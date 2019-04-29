@@ -141,14 +141,6 @@ h2{
   margin-bottom:50px;
 }
 
-.socialNetworkIcon{
-  margin: 50px;
-  background: #2E9AFE;
-  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-  border-radius: 11.5px;
-  box-sizing: border-box;
-}
-
 #playButton{
   margin-top: 80px;
   margin-left: 50px;
@@ -170,8 +162,8 @@ h2{
   padding:1px;
   margin-top: 76px;
 }
+
 #playButton:active {
-  
   box-shadow: 0 0px 0;
   transform: translateY(4px);
 }
@@ -181,8 +173,44 @@ h2{
   padding:1px;
   margin-top: 76px;
 }
+
 #pauseButton:active {
-  
   box-shadow: 0 0px 0;
+  transform: translateY(4px);
+}
+
+#linkedInIcon{
+  margin: 50px;
+  background: #2E9AFE;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  border-radius: 11.5px;
+  box-sizing: border-box;
+}
+
+#linkedInIcon:hover{
+  margin-top: 44px;
+  margin-bottom: 56px;
+}
+
+#linkedInIcon:active {
+  box-shadow: 0 0px;
+  transform: translateY(4px);
+}
+
+#instagramIcon{
+  margin: 50px;
+  background: #2E9AFE;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  border-radius: 11.5px;
+  box-sizing: border-box;
+}
+
+#instagramIcon:hover{
+  margin-top: 44px;
+  margin-bottom: 56px;
+}
+
+#instagramIcon:active {
+  box-shadow: 0 0px;
   transform: translateY(4px);
 }
