@@ -164,3 +164,25 @@ h2{
   border-radius: 6px;
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
+
+#playButton:hover {
+  border: 3px solid black;
+  padding:1px;
+  margin-top: 76px;
+}
+#playButton:active {
+  
+  box-shadow: 0 0px 0;
+  transform: translateY(4px);
+}
+
+#pauseButton:hover {
+  border: 3px solid black;
+  padding:1px;
+  margin-top: 76px;
+}
+#pauseButton:active {
+  
+  box-shadow: 0 0px 0;
+  transform: translateY(4px);
+}
