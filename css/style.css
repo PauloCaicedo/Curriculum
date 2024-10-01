@@ -1,216 +1,176 @@
-@import url(https://fonts.googleapis.com/css?family=VT323);
+@import url('https://fonts.googleapis.com/css?family=VT323');
 
-body{  
+body {
   background-color: black;
+  margin: 0;
+  font-family: 'VT323', monospace;
 }
 
-h1{
+h1 {
   color: yellow;
   text-transform: uppercase;
   text-align: center;
-  font-family: 'VT323';
-  font-weight: normal;
   font-size: 3em;
-  background: linear-gradient(red,#e7a61a);
+  background: linear-gradient(red, #e7a61a);
   border: 2px solid black;
   border-radius: 30px;
-  margin-top: 50px;
-  margin-right: 50px;
-  margin-left: 50px;
-  position: relative;
-  box-shadow: 7px 10px 5px 0px rgba(0,0,0,0.75);
+  margin: 50px 20px;
+  padding: 20px;
+  box-shadow: 7px 10px 5px rgba(0, 0, 0, 0.75);
 }
 
-table{
-  margin-bottom:50px;
-  margin-left:50px;
-  margin-right:50px;
+table {
+  margin: 20px auto 50px;
   background: yellow;
   border: 2px solid black;
   border-radius: 10px;
-  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.75);
 }
 
-p{
+p {
   color: black;
   text-align: justify;
-  font-family: 'VT323';
   font-size: 2em;
-  margin: 50px;
-}
-#contactIconOne{
-  margin: 50px;
-  background: orange;
-  border: 2px solid black;
-  border-radius: 20px;
-  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-  padding: 2px;
-  
+  margin: 20px 50px;
 }
 
-#contactIconTwo{
-  margin: 50px;
-  background: yellow;
-  border: 2px solid black;
-  border-radius: 5px;
-  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-  padding: 2px;
-  
-}
-
-.contactText{
-  color: black;
-  font-family: 'VT323';
-  font-weight: normal;
-  font-size: 3em;
-  padding: 50px;
-  
-}
-
-.Icon{
-  margin: 25px;
+.Icon {
+  margin: 15px;
   background: white;
   border: 2px solid black;
   border-radius: 10px;
-  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.75);
+  margin: 20px;
+  border: 2px solid black;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.75);
+  padding: 10px;
 }
 
-#pic{
-  margin-right: 50px;
-  margin-bottom: auto;
+#contactIconOne,
+#contactIconTwo {
+  margin: 20px;
+  border: 2px solid black;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.75);
+  padding: 10px;
+}
+
+#contactIconOne {
+  background: orange;
+  border-radius: 20px;
+}
+
+#contactIconTwo {
+  background: yellow;
+  border-radius: 5px;
+}
+
+.contactText {
+  color: black;
+  font-size: 3em;
+  padding: 10px;
+}
+
+#pic {
+  margin: 20px;
   background: red;
   width: 100px;
   border: 2px solid black;
   border-radius: 10px;
-  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.75);
   padding: 2px;
 }
 
-.frame{
+.frame {
   background-image: url('https://github.com/PauloCaicedo/Curriculum/blob/gh-pages/images/banner.jpg?raw=true');
   background-repeat: repeat-x;
   background-attachment: fixed;
+  padding: 100px 0; /* Añadir espacio arriba y abajo del banner */
 }
 
-.pane{
-  margin-top: 100px;
-  /*background-color: #2E9AFE;*/
+.pane {
+  margin-top: 50px; /* Ajustar margen superior del contenido */
   background-image: url('https://github.com/PauloCaicedo/Curriculum/blob/gh-pages/images/noiseBackground.png?raw=true');
   border: 2px solid black;
   border-radius: 20px;
+  padding: 20px;
 }
 
-.toolTd{
+.toolTd {
   color: red;
-  font-family: 'VT323';
-  font-weight: normal;
   font-size: 2.2em;
   text-align: center;
 }
 
-.toolDescription{
+.toolDescription {
   color: black;
-  font-family: 'VT323';
-  font-weight: normal;
   font-size: 1.5em;
   text-align: left;
   width: 300px;
   padding: 20px;
   box-sizing: border-box;
-  vertical-align:top;
-  
 }
 
-h2{
+h2 {
   color: black;
   text-align: center;
-  font-family: 'VT323';
-  font-weight: normal;
   font-size: 1.8em;
-  margin-top: 30px;
-  margin-bottom: 25px;
+  margin: 30px 0 25px;
 }
 
-.contactTable{
-  margin: auto;
-  
+.contactTable,
+.skillsTable {
+  margin-top: auto;
 }
 
-.skillsTableTwo{
-  margin: auto;
-  margin-bottom:50px;
+.container {
+  display: flex; 
+  justify-content: flex-start;
+  padding-left: 20px;
 }
 
-#playButton{
-  margin-top: 80px;
-  margin-left: 50px;
+button {
   background: red;
   border: 2px solid black;
+  padding: 0;
   border-radius: 5px;
-  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.75);
+  transition: all 0.2s; 
+  display: inline-flex;
+  margin-right: 20px;
+  cursor: pointer;
 }
 
-#pauseButton{
-  background: red;
-  border: 2px solid black;
-  border-radius: 6px;
-  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-}
-
-#playButton:hover {
-  border: 3px solid black;
-  padding:1px;
-  margin-top: 76px;
-}
-
-#playButton:active {
-  box-shadow: 0 0px 0;
-  transform: translateY(4px);
-}
-
+#playButton:hover,
 #pauseButton:hover {
-  border: 3px solid black;
-  padding:1px;
-  margin-top: 76px;
+  outline: 3px solid black;
+  transform: translateY(-4px);
 }
 
+#playButton:active,
 #pauseButton:active {
-  box-shadow: 0 0px 0;
+  box-shadow: none;
   transform: translateY(4px);
 }
 
-#linkedInIcon{
-  margin: 50px;
+#linkedInIcon,
+#instagramIcon {
+  margin: 20px;
   background: #2E9AFE;
-  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   border-radius: 11.5px;
-  box-sizing: border-box;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.75);
+  transition: all 0.2s; 
+  margin-right: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
 }
 
-#linkedInIcon:hover{
-  margin-top: 44px;
-  margin-bottom: 56px;
+#linkedInIcon:hover,
+#instagramIcon:hover {
+  transform: translateY(-5px);
 }
 
-#linkedInIcon:active {
-  box-shadow: 0 0px;
-  transform: translateY(4px);
-}
-
-#instagramIcon{
-  margin: 50px;
-  background: #2E9AFE;
-  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-  border-radius: 11.5px;
-  box-sizing: border-box;
-}
-
-#instagramIcon:hover{
-  margin-top: 44px;
-  margin-bottom: 56px;
-}
-
+#linkedInIcon:active,
 #instagramIcon:active {
-  box-shadow: 0 0px;
+  box-shadow: none;
   transform: translateY(4px);
 }
