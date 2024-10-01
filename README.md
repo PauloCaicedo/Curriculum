@@ -1,5 +1,7 @@
 # Curriculum Vitae - Paulo Caicedo Zapata
 
+ [Visit Curriculum on GitHub Pages](https://paulocaicedo.github.io/Curriculum/)
+
 ## Description
 This project is an interactive personal curriculum vitae of Paulo Caicedo Zapata, designed to showcase my skills, experience, and contact information. The application includes multimedia elements and an attractive design using HTML, CSS, and JavaScript.
 
