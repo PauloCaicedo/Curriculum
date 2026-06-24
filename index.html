@@ -2,128 +2,472 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curriculum - Paulo Caicedo Zapata</title>
-    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="theme-color" content="#0B0A1F" />
+
+    <title>Paulo Caicedo Zapata — Senior Software Developer</title>
+    <meta name="description"
+        content="Paulo Caicedo Zapata — Senior Software Developer with 7+ years building backends in Java &amp; Spring. Flutter apps, XRP Ledger, Interledger and AI-agent systems. Based in Medellín, Colombia." />
+    <meta name="author" content="Paulo Caicedo Zapata" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Paulo Caicedo Zapata — Senior Software Developer" />
+    <meta property="og:description"
+        content="7+ years building backends in Java &amp; Spring. Flutter apps, XRP Ledger, Interledger and AI-agent systems." />
+    <meta property="og:url" content="https://paulocaicedo.github.io/Curriculum/" />
+    <meta property="og:image" content="https://paulocaicedo.github.io/Curriculum/images/PauloCaicedo.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Pixel favicon: synthwave sun -->
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230B0A1F'/%3E%3Ccircle cx='16' cy='15' r='9' fill='%23FF3D9A'/%3E%3Crect x='5' y='16' width='22' height='2' fill='%230B0A1F'/%3E%3Crect x='6' y='19' width='20' height='1.6' fill='%230B0A1F'/%3E%3Crect x='8' y='21.5' width='16' height='1.4' fill='%230B0A1F'/%3E%3C/svg%3E" />
+
+    <!-- Fonts: Press Start 2P (pixel accents) · Chakra Petch (display/UI) · DM Sans (body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&family=DM+Sans:wght@400;500;700&family=Press+Start+2P&display=swap"
+        rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/style.css" />
 </head>
 
-<body class="frame">
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
 
-    <div class="container">
-    <audio src="music/audio.mp3" id="audio"></audio>
-    <button id="playButton">
-        <img src="https://github.com/PauloCaicedo/Curriculum/blob/gh-pages/images/playButton.png?raw=true" alt="Play Button" />
-    </button>
-    <button id="pauseButton">
-        <img src="https://github.com/PauloCaicedo/Curriculum/blob/gh-pages/images/pauseButton.png?raw=true" alt="Pause Button" />
-    </button>
-</div>
-
-    <div class="pane">
-        <h1>Paulo Caicedo Zapata</h1>
-
-        <table>
-            <tr>
-                <td id="personalDescription">
-                    <p>
-                        Hello, I am an electronic engineer graduated from the University of Antioquia in Medellin, Colombia. I am currently working as a Java developer and XRP Ledger developer.
-                    </p>
-                </td>
-                <td>
-                    <img src="https://paulocaicedo.github.io/Curriculum/images/PauloCaicedo.png" alt="Photo of Paulo Caicedo Zapata" id="pic" />
-                </td>
-            </tr>
-        </table>
-
-        <h1>Contact Information</h1>
-        <div class="contactDivision">
-            <table class="contactTable">
-                <tr>
-                    <th>
-                        <img src="https://github.com/PauloCaicedo/Curriculum/blob/gh-pages/images/movilIcon.png?raw=true" alt="Mobile Icon" id="contactIconOne" />
-                    </th>
-                    <td class="contactText">+57 300 377 ** **</td>
-                </tr>
-                <tr>
-                    <th>
-                        <img src="https://github.com/PauloCaicedo/Curriculum/blob/gh-pages/images/mailIcon.png?raw=true" alt="Mail Icon" id="contactIconTwo" />
-                    </th>
-                    <td class="contactText">Paulo.caicedo@gmail.com</td>
-                </tr>
-                <tr>
-                    <th colspan="2" class="socialNetwork">
-                        <a href="https://www.linkedin.com/in/paulo-caicedo-2359975b/" target="_blank">
-                            <img src="https://github.com/PauloCaicedo/Curriculum/blob/gh-pages/images/linkedInIcon.png?raw=true" alt="LinkedIn Icon" id="linkedInIcon" />
-                        </a>
-                        <a href="https://www.instagram.com/paulolxr" target="_blank">
-                            <img src="https://github.com/PauloCaicedo/Curriculum/blob/gh-pages/images/instagramIcon.png?raw=true" alt="Instagram Icon" id="instagramIcon" />
-                        </a>
-                    </th>
-                </tr>
-            </table>
-        </div>
-
-        <h1>Skills</h1>
-        <table class="skillsTable">
-            <tr>
-                <th><img src="https://paulocaicedo.github.io/Curriculum/images/javaIcon.png" alt="Java Icon" class="Icon" /></th>
-                <th><img src="https://github.com/PauloCaicedo/Curriculum/blob/gh-pages/images/gitHubIcon.png?raw=true" alt="GitHub Icon" class="Icon" /></th>
-                <th><img src="https://github.com/PauloCaicedo/Curriculum/blob/gh-pages/images/codepenIcon.png?raw=true" alt="CodePen Icon" class="Icon" /></th>
-                <th><img src="https://github.com/PauloCaicedo/Curriculum/blob/gh-pages/images/sublimeIcon.png?raw=true" alt="Sublime Icon" class="Icon" /></th>
-            </tr>
-            <tr>
-                <td class="toolTd">Java</td>
-                <td class="toolTd">GitHub</td>
-                <td class="toolTd">CodePen</td>
-                <td class="toolTd">Sublime</td>
-            </tr>
-            <tr>
-                <td class="toolDescription">BE developer.</td>
-                <td class="toolDescription">Version control tool that I use to host my projects.</td>
-                <td class="toolDescription">I usually use it for front-end developments.</td>
-                <td class="toolDescription">My favorite text editor.</td>
-            </tr>
-            <tr>
-                <th><img src="https://github.com/PauloCaicedo/Curriculum/blob/gh-pages/images/trelloIcon.png?raw=true" alt="Trello Icon" class="Icon" /></th>
-                <th><img src="https://github.com/PauloCaicedo/Curriculum/blob/gh-pages/images/intelliJIcon.png?raw=true" alt="IntelliJ Icon" class="Icon" /></th>
-            </tr>
-            <tr>
-                <td class="toolTd">Trello</td>
-                <td class="toolTd">IntelliJ</td>
-            </tr>
-            <tr>
-                <td class="toolDescription">Task management tool that I use for my projects.</td>
-                <td class="toolDescription">The IDE that I am currently using for my Java developments.</td>
-            </tr>
-        </table>
-
-        <table class="skillsTable">
-            <tr>
-                <th colspan="3">
-                    <h2>I'm not an expert, but I've done projects in:</h2>
-                </th>
-            </tr>
-            <tr>
-                <th><img src="https://github.com/PauloCaicedo/Curriculum/blob/gh-pages/images/unityIcon.png?raw=true" alt="Unity Icon" class="Icon" /></th>
-                <th><img src="https://github.com/PauloCaicedo/Curriculum/blob/gh-pages/images/androidStudioIcon.png?raw=true" alt="Android Studio Icon" class="Icon" /></th>
-                <th><img src="https://github.com/PauloCaicedo/Curriculum/blob/gh-pages/images/pythonIcon.png?raw=true" alt="Python Icon" class="Icon" /></th>
-            </tr>
-            <tr>
-                <td class="toolTd">Unity</td>
-                <td class="toolTd">Android Studio</td>
-                <td class="toolTd">Python</td>
-            </tr>
-            <tr>
-                <td class="toolDescription">I made a Jumping Guy style game for Android, Windows, and WEB.</td>
-                <td class="toolDescription">I did a free online course and some practical exercises.</td>
-                <td class="toolDescription">I create scripts to communicate via SSH and Telnet with Cisco switches and Motorola access points, configuring them from a Linux server with Axiros.</td>
-            </tr>
-        </table>
+    <!-- Decorative atmosphere (purely visual) -->
+    <div class="fx" aria-hidden="true">
+        <div class="fx__grid"></div>
+        <div class="fx__sun"></div>
+        <div class="fx__scanlines"></div>
+        <div class="fx__vignette"></div>
     </div>
 
-    <script src="js/index.js"></script>
+    <header class="site-header">
+        <div class="site-header__inner">
+            <a class="wordmark" href="#top" aria-label="Paulo Caicedo — home">
+                <span class="wordmark__mark" aria-hidden="true">PC</span>
+                <span class="wordmark__name">Paulo&nbsp;Caicedo</span>
+            </a>
+
+            <nav class="nav" aria-label="Primary">
+                <a class="nav__link" href="#about">About</a>
+                <a class="nav__link" href="#work">Work</a>
+                <a class="nav__link" href="#stack">Stack</a>
+                <a class="nav__link" href="#contact">Contact</a>
+            </nav>
+
+            <button class="music-toggle" id="musicToggle" type="button" aria-pressed="false"
+                aria-label="Play background music">
+                <svg class="music-toggle__icon music-toggle__icon--play" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 5v14l11-7z" />
+                </svg>
+                <svg class="music-toggle__icon music-toggle__icon--pause" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M6 5h4v14H6zM14 5h4v14h-4z" />
+                </svg>
+                <span class="eq" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+            </button>
+        </div>
+    </header>
+
+    <main id="main">
+        <span id="top"></span>
+
+        <!-- ============ HERO ============ -->
+        <section class="hero" aria-labelledby="hero-name">
+            <div class="hero__inner">
+                <div class="hero__copy">
+                    <p class="eyebrow"><span class="eyebrow__bracket">//</span> Senior Software Developer</p>
+                    <h1 class="hero__name" id="hero-name" aria-label="Paulo Caicedo Zapata">Paulo<br />Caicedo Zapata</h1>
+                    <p class="hero__tagline">
+                        Electronic engineer turned developer. <strong>7+ years</strong> building robust
+                        backends in <span class="hl">Java&nbsp;&amp;&nbsp;Spring</span> — plus Flutter apps and a
+                        deep curiosity for the <span class="hl hl--cyan">XRP&nbsp;Ledger</span>, the Interledger
+                        Protocol and AI-agent systems.
+                    </p>
+
+                    <p class="hero__meta">
+                        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true">
+                            <path
+                                d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z" />
+                        </svg>
+                        Medellín, Colombia
+                    </p>
+
+                    <div class="hero__actions">
+                        <a class="btn btn--primary" href="mailto:cuentas_desarrollo_939@proton.me">
+                            <svg class="ico" viewBox="0 0 24 24" aria-hidden="true">
+                                <path
+                                    d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2zm0 2v.4l8 5 8-5V6H4zm16 12V8.8l-8 5-8-5V18h16z" />
+                            </svg>
+                            Get in touch
+                        </a>
+                        <a class="btn btn--ghost" href="#work">
+                            View my work
+                            <svg class="ico" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M13 5l7 7-7 7-1.4-1.4 4.6-4.6H4v-2h12.2l-4.6-4.6z" />
+                            </svg>
+                        </a>
+                    </div>
+
+                    <ul class="social-row" aria-label="Social profiles">
+                        <li>
+                            <a class="social-link" href="https://www.linkedin.com/in/paulo-caicedo-2359975b/"
+                                target="_blank" rel="noopener noreferrer" aria-label="LinkedIn (opens in new tab)">
+                                <img src="images/linkedInIcon.png" alt="" width="28" height="28" loading="lazy" />
+                            </a>
+                        </li>
+                        <li>
+                            <a class="social-link" href="https://github.com/PauloCaicedo" target="_blank"
+                                rel="noopener noreferrer" aria-label="GitHub (opens in new tab)">
+                                <img src="images/gitHubIcon.png" alt="" width="28" height="28" loading="lazy" />
+                            </a>
+                        </li>
+                        <li>
+                            <a class="social-link" href="https://www.instagram.com/paulolxr" target="_blank"
+                                rel="noopener noreferrer" aria-label="Instagram (opens in new tab)">
+                                <img src="images/instagramIcon.png" alt="" width="28" height="28" loading="lazy" />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="hero__portrait">
+                    <figure class="portrait">
+                        <img class="portrait__img" src="images/PauloCaicedo.png"
+                            alt="Portrait of Paulo Caicedo Zapata" width="320" height="320" />
+                        <figcaption class="portrait__tag">
+                            <span class="status-dot" aria-hidden="true"></span> Available for new projects
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+
+            <a class="scroll-cue" href="#about" aria-label="Scroll to about section">
+                <span></span>
+            </a>
+        </section>
+
+        <!-- ============ ABOUT ============ -->
+        <section class="section about" id="about" aria-labelledby="about-title">
+            <header class="section__head">
+                <span class="section__index">01</span>
+                <h2 class="section__title">About</h2>
+            </header>
+
+            <div class="about__grid">
+                <div class="about__bio">
+                    <p class="lead">
+                        I'm an electronic engineer from the Universidad de Antioquia who fell in love with software.
+                    </p>
+                    <p>
+                        Today I work as a <strong>Senior Software Developer</strong> with more than seven years of
+                        experience designing and building robust backends — mostly across the
+                        <strong>Java &amp; Spring</strong> ecosystem. I care about clean architecture, readable code
+                        and systems that age well.
+                    </p>
+                    <p>
+                        Outside of backend work I build cross-platform mobile apps with <strong>Flutter</strong>, and
+                        I'm actively exploring the <strong>XRP Ledger</strong>, the <strong>Interledger
+                            Protocol</strong> and <strong>AI-agent systems</strong> powered by Claude.
+                    </p>
+                </div>
+
+                <aside class="about__side" aria-label="Education and certifications">
+                    <div class="info-card">
+                        <h3 class="info-card__title">Education</h3>
+                        <ul class="info-list">
+                            <li class="info-list__item">
+                                <span class="info-list__primary">Electronic Engineering</span>
+                                <span class="info-list__meta">Universidad de Antioquia · 2008–2016</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="info-card">
+                        <h3 class="info-card__title">Certifications</h3>
+                        <ul class="info-list">
+                            <li class="info-list__item">
+                                <span class="info-list__primary">Introduction to Agent Skills</span>
+                                <span class="info-list__meta">Anthropic · 2026</span>
+                            </li>
+                            <li class="info-list__item">
+                                <span class="info-list__primary">Java Spring</span>
+                                <span class="info-list__meta">Platzi · 2020</span>
+                            </li>
+                            <li class="info-list__item">
+                                <span class="info-list__primary">Advanced Java SE</span>
+                                <span class="info-list__meta">Platzi · 2020</span>
+                            </li>
+                            <li class="info-list__item">
+                                <span class="info-list__primary">Functional Programming with Java</span>
+                                <span class="info-list__meta">Platzi · 2020</span>
+                            </li>
+                        </ul>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <!-- ============ WORK ============ -->
+        <section class="section work" id="work" aria-labelledby="work-title">
+            <header class="section__head">
+                <span class="section__index">02</span>
+                <h2 class="section__title">Work</h2>
+                <p class="section__lead">A personal project I designed, built and shipped.</p>
+            </header>
+
+            <article class="project-card">
+                <div class="project-card__media" aria-hidden="true">
+                    <!-- Stylised app mock -->
+                    <svg class="phone" viewBox="0 0 220 360" role="img" aria-hidden="true">
+                        <defs>
+                            <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1">
+                                <stop offset="0" stop-color="#1A1640" />
+                                <stop offset="1" stop-color="#0B0A1F" />
+                            </linearGradient>
+                            <linearGradient id="bar" x1="0" y1="1" x2="0" y2="0">
+                                <stop offset="0" stop-color="#A855F7" />
+                                <stop offset="1" stop-color="#FF3D9A" />
+                            </linearGradient>
+                        </defs>
+                        <rect x="10" y="6" width="200" height="348" rx="30" fill="#05040F" stroke="#A855F7"
+                            stroke-width="2" />
+                        <rect x="20" y="16" width="180" height="328" rx="22" fill="url(#screen)" />
+                        <rect x="82" y="24" width="56" height="7" rx="3.5" fill="#A855F7" opacity="0.5" />
+                        <!-- balance -->
+                        <text x="40" y="74" fill="#8A85C0" font-family="monospace" font-size="11">Balance</text>
+                        <text x="40" y="100" fill="#ECEAFB" font-family="monospace" font-size="24"
+                            font-weight="700">$ 4.820</text>
+                        <!-- donut -->
+                        <circle cx="150" cy="86" r="26" fill="none" stroke="#27244A" stroke-width="9" />
+                        <circle cx="150" cy="86" r="26" fill="none" stroke="#2DE2E6" stroke-width="9"
+                            stroke-linecap="round" stroke-dasharray="120 163" transform="rotate(-90 150 86)" />
+                        <!-- bars -->
+                        <g>
+                            <rect x="40" y="180" width="22" height="70" rx="5" fill="url(#bar)" />
+                            <rect x="74" y="150" width="22" height="100" rx="5" fill="url(#bar)" />
+                            <rect x="108" y="200" width="22" height="50" rx="5" fill="url(#bar)" />
+                            <rect x="142" y="166" width="22" height="84" rx="5" fill="url(#bar)" />
+                        </g>
+                        <rect x="40" y="262" width="140" height="2" fill="#27244A" />
+                        <!-- list rows -->
+                        <g fill="#27244A">
+                            <rect x="40" y="280" width="140" height="14" rx="7" />
+                            <rect x="40" y="304" width="120" height="14" rx="7" />
+                        </g>
+                        <circle cx="47" cy="287" r="3" fill="#FF3D9A" />
+                        <circle cx="47" cy="311" r="3" fill="#2DE2E6" />
+                    </svg>
+                </div>
+
+                <div class="project-card__body">
+                    <p class="project-card__kicker">Personal project · Mobile</p>
+                    <h3 class="project-card__title">Gastos y Ahorro&nbsp;: Luxor</h3>
+                    <p class="project-card__desc">
+                        A personal-finance app to track everyday <em>expenses</em> and <em>savings</em>, designed and
+                        built end-to-end with Flutter and published on Google&nbsp;Play. A focused, real-world product
+                        — from data model to UI.
+                    </p>
+                    <ul class="tag-list" aria-label="Technologies">
+                        <li class="tag">Flutter</li>
+                        <li class="tag">Dart</li>
+                        <li class="tag">Mobile</li>
+                        <li class="tag">UX</li>
+                    </ul>
+                    <a class="btn btn--primary"
+                        href="https://play.google.com/store/apps/details?id=com.luxorservices.financetracker"
+                        target="_blank" rel="noopener noreferrer">
+                        View on Google Play
+                        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true">
+                            <path
+                                d="M14 3h7v7h-2V6.4l-9.3 9.3-1.4-1.4L17.6 5H14V3zM5 5h5v2H5v12h12v-5h2v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z" />
+                        </svg>
+                    </a>
+                </div>
+            </article>
+        </section>
+
+        <!-- ============ STACK ============ -->
+        <section class="section stack" id="stack" aria-labelledby="stack-title">
+            <header class="section__head">
+                <span class="section__index">03</span>
+                <h2 class="section__title">Stack</h2>
+                <p class="section__lead">Languages, frameworks and tools I work with — and the strengths behind them.</p>
+            </header>
+
+            <h3 class="stack__group-title">Technologies</h3>
+            <ul class="stack-grid">
+                <li class="stack-card">
+                    <span class="stack-card__icon"><img src="images/javaIcon.png" alt="Java" width="44" height="44"
+                            loading="lazy" /></span>
+                    <h4 class="stack-card__name">Java</h4>
+                    <p class="stack-card__desc">My primary language for backend development.</p>
+                </li>
+                <li class="stack-card">
+                    <span class="stack-card__icon"><img src="images/icons/spring.svg" alt="Spring" width="44" height="44"
+                            loading="lazy" /></span>
+                    <h4 class="stack-card__name">Spring</h4>
+                    <p class="stack-card__desc">The framework behind my Java services &amp; APIs.</p>
+                </li>
+                <li class="stack-card">
+                    <span class="stack-card__icon"><img src="images/pythonIcon.png" alt="Python" width="44" height="44"
+                            loading="lazy" /></span>
+                    <h4 class="stack-card__name">Python</h4>
+                    <p class="stack-card__desc">Scripts to talk to Cisco switches &amp; Motorola APs over SSH/Telnet.</p>
+                </li>
+                <li class="stack-card">
+                    <span class="stack-card__icon"><img src="images/icons/sql.svg" alt="SQL" width="44" height="44"
+                            loading="lazy" /></span>
+                    <h4 class="stack-card__name">SQL</h4>
+                    <p class="stack-card__desc">Designing and querying relational databases.</p>
+                </li>
+                <li class="stack-card">
+                    <span class="stack-card__icon"><img src="images/icons/dart.svg" alt="Dart" width="44" height="44"
+                            loading="lazy" /></span>
+                    <h4 class="stack-card__name">Dart</h4>
+                    <p class="stack-card__desc">The language powering my Flutter apps.</p>
+                </li>
+                <li class="stack-card">
+                    <span class="stack-card__icon"><img src="images/icons/flutter.svg" alt="Flutter" width="44"
+                            height="44" loading="lazy" /></span>
+                    <h4 class="stack-card__name">Flutter</h4>
+                    <p class="stack-card__desc">Cross-platform mobile apps from one codebase.</p>
+                </li>
+                <li class="stack-card">
+                    <span class="stack-card__icon"><img src="images/icons/linux.svg" alt="Linux" width="44" height="44"
+                            loading="lazy" /></span>
+                    <h4 class="stack-card__name">Linux</h4>
+                    <p class="stack-card__desc">My everyday environment for dev &amp; servers.</p>
+                </li>
+                <li class="stack-card">
+                    <span class="stack-card__icon"><img src="images/icons/claude.svg" alt="Claude AI" width="44"
+                            height="44" loading="lazy" /></span>
+                    <h4 class="stack-card__name">Claude AI</h4>
+                    <p class="stack-card__desc">AI-assisted code analysis &amp; automation.</p>
+                </li>
+            </ul>
+
+            <h3 class="stack__group-title">Tools</h3>
+            <ul class="stack-grid">
+                <li class="stack-card">
+                    <span class="stack-card__icon"><img src="images/intelliJIcon.png" alt="IntelliJ IDEA" width="44"
+                            height="44" loading="lazy" /></span>
+                    <h4 class="stack-card__name">IntelliJ IDEA</h4>
+                    <p class="stack-card__desc">My main IDE for Java work.</p>
+                </li>
+                <li class="stack-card">
+                    <span class="stack-card__icon"><img src="images/androidStudioIcon.png" alt="Android Studio"
+                            width="44" height="44" loading="lazy" /></span>
+                    <h4 class="stack-card__name">Android Studio</h4>
+                    <p class="stack-card__desc">For my Android &amp; Flutter mobile development.</p>
+                </li>
+                <li class="stack-card">
+                    <span class="stack-card__icon"><img src="images/gitHubIcon.png" alt="GitHub" width="44" height="44"
+                            loading="lazy" /></span>
+                    <h4 class="stack-card__name">GitHub</h4>
+                    <p class="stack-card__desc">Version control and where I host my projects.</p>
+                </li>
+                <li class="stack-card">
+                    <span class="stack-card__icon"><img src="images/icons/cursor.svg" alt="Cursor" width="44"
+                            height="44" loading="lazy" /></span>
+                    <h4 class="stack-card__name">Cursor</h4>
+                    <p class="stack-card__desc">AI-first editor I code in day to day.</p>
+                </li>
+                <li class="stack-card">
+                    <span class="stack-card__icon"><img src="images/icons/jira.svg" alt="Jira" width="44" height="44"
+                            loading="lazy" /></span>
+                    <h4 class="stack-card__name">Jira</h4>
+                    <p class="stack-card__desc">Issue tracking and sprint planning.</p>
+                </li>
+                <li class="stack-card">
+                    <span class="stack-card__icon"><img src="images/icons/datadog.svg" alt="Datadog" width="44"
+                            height="44" loading="lazy" /></span>
+                    <h4 class="stack-card__name">Datadog</h4>
+                    <p class="stack-card__desc">Monitoring and observability for services.</p>
+                </li>
+            </ul>
+
+            <h3 class="stack__group-title">Strengths &amp; focus</h3>
+            <ul class="chip-list" aria-label="Strengths and focus areas">
+                <li class="chip">Backend architecture</li>
+                <li class="chip">Scalable backend design</li>
+                <li class="chip">REST APIs</li>
+                <li class="chip">CI/CD</li>
+                <li class="chip">Unit &amp; integration testing</li>
+                <li class="chip">Code review &amp; analysis</li>
+                <li class="chip">AI integration</li>
+                <li class="chip">XRP Ledger</li>
+                <li class="chip">Interledger Protocol</li>
+            </ul>
+        </section>
+
+        <!-- ============ CONTACT ============ -->
+        <section class="section contact" id="contact" aria-labelledby="contact-title">
+            <header class="section__head">
+                <span class="section__index">04</span>
+                <h2 class="section__title">Contact</h2>
+                <p class="section__lead">Let's build something. I'm one message away.</p>
+            </header>
+
+            <div class="contact__grid">
+                <a class="contact-item" href="mailto:cuentas_desarrollo_939@proton.me">
+                    <span class="contact-item__icon">
+                        <img src="images/mailIcon.png" alt="" width="32" height="32" loading="lazy" />
+                    </span>
+                    <span class="contact-item__body">
+                        <span class="contact-item__label">Email</span>
+                        <span class="contact-item__value">cuentas_desarrollo_939@proton.me</span>
+                    </span>
+                </a>
+
+                <div class="contact-item contact-item--static">
+                    <span class="contact-item__icon">
+                        <img src="images/movilIcon.png" alt="" width="32" height="32" loading="lazy" />
+                    </span>
+                    <span class="contact-item__body">
+                        <span class="contact-item__label">Phone</span>
+                        <span class="contact-item__value">+57 300 377 ** **</span>
+                    </span>
+                </div>
+
+                <a class="contact-item" href="https://www.linkedin.com/in/paulo-caicedo-2359975b/" target="_blank"
+                    rel="noopener noreferrer">
+                    <span class="contact-item__icon">
+                        <img src="images/linkedInIcon.png" alt="" width="32" height="32" loading="lazy" />
+                    </span>
+                    <span class="contact-item__body">
+                        <span class="contact-item__label">LinkedIn</span>
+                        <span class="contact-item__value">in/paulo-caicedo</span>
+                    </span>
+                </a>
+
+                <a class="contact-item" href="https://github.com/PauloCaicedo" target="_blank"
+                    rel="noopener noreferrer">
+                    <span class="contact-item__icon">
+                        <img src="images/gitHubIcon.png" alt="" width="32" height="32" loading="lazy" />
+                    </span>
+                    <span class="contact-item__body">
+                        <span class="contact-item__label">GitHub</span>
+                        <span class="contact-item__value">@PauloCaicedo</span>
+                    </span>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="site-footer__inner">
+            <p class="site-footer__brand"><span class="wordmark__mark" aria-hidden="true">PC</span> Paulo Caicedo
+                Zapata</p>
+            <p class="site-footer__note">Designed &amp; built with HTML, CSS &amp; JavaScript · Medellín, Colombia</p>
+        </div>
+    </footer>
+
+    <audio id="audio" src="music/audio.mp3" preload="none" loop></audio>
+    <script src="js/index.js" defer></script>
 </body>
 
 </html>
-

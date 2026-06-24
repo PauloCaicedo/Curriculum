@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="SQL database">
+  <defs>
+    <linearGradient id="sqlg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3DE0F5"/>
+      <stop offset="1" stop-color="#2A6CF5"/>
+    </linearGradient>
+  </defs>
+  <g fill="url(#sqlg)">
+    <ellipse cx="64" cy="30" rx="42" ry="17"/>
+    <path d="M22 30 v28 c0 9.4 18.8 17 42 17 s42-7.6 42-17 V30 c0 9.4-18.8 17-42 17 S22 39.4 22 30 z" opacity="0.92"/>
+    <path d="M22 64 v28 c0 9.4 18.8 17 42 17 s42-7.6 42-17 V64 c0 9.4-18.8 17-42 17 S22 73.4 22 64 z" opacity="0.82"/>
+  </g>
+</svg>
